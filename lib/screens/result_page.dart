@@ -50,7 +50,11 @@ class ResultPage extends StatelessWidget {
                               .green500
                               .makeCentered(),
                           bmi.text.size(100.0).makeCentered(),
-                          interpretation.text.align(TextAlign.center).size(22.0).makeCentered().p16()
+                          interpretation.text
+                              .align(TextAlign.center)
+                              .size(22.0)
+                              .makeCentered()
+                              .p16()
                         ]),
                     () {})
                 .expand(flex: 5),
